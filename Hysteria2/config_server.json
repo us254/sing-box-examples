@@ -33,24 +33,24 @@
       "sniff_override_destination": false,
       "sniff_timeout": "300ms",
       "domain_strategy": "ipv4_only",
-      "up_mbps": ,
-      "down_mbps": ,
+      "up_mbps": 800,
+      "down_mbps": 900,
       "users": [
         {
-          "name": "",
+          "name": "pulse3318",
           "password": ""
         }
       ],
       "ignore_client_bandwidth": false,
       "tls": {
         "enabled": true,
-        "certificate_path": "",
-        "key_path": "",
+        "certificate_path": "/root/ssl-cert/server.crt",
+        "key_path": "/root/ssl-cert/server.key",
         "alpn": [
           "h3"
         ]
       },
-      "masquerade": "",
+      "masquerade": "https://cloudflare.com",
       "brutal_debug": false
     }
   ],
