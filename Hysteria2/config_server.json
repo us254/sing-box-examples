@@ -24,7 +24,7 @@
       "type": "hysteria2",
       "tag": "hy2-in",
       "listen": "::",
-      "listen_port": ,
+      "listen_port": 443,
       "tcp_fast_open": true,
       "tcp_multi_path": false,
       "udp_fragment": true,
